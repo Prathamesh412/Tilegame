@@ -96,7 +96,7 @@ var game = function(row, column) {
 //
 //};
     
-    
+};
 // end of game function
 var mytitles = new game(3,3);
 mytitles.initialize();
