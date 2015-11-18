@@ -1,0 +1,10 @@
+.scores {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.player {
+    display: block;
+    padding: 14px;
+}

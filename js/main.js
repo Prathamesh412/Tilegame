@@ -32,12 +32,15 @@ var tile = function(value){
 };
 
 var game = function(){
-  this.rows = ['x','0','x'];
-  this.columns = 3;
+  this.rows = r;
+  this.columns = q;
   var tiles = [];
+    
+    var r = ['x','0','x'];
+    var q = 3;
   //52 loops = 4 *13
   
-  for(var i = 0; i< 4;i++)
+  for(var i = 0; i< 3;i++)
     {
     for(var j = 0; j< this.rows.length;j++){
         var tileObject = new tile(j+1, this.rows[j]);
@@ -55,7 +58,11 @@ var init = function() {
 
       for (var i = 0; i < mytitles.length; i++) {
         div = document.createElement('div');
+        div.className ='scores';
+          
+        div.innerHTML = '<span class="player">' + "hey" +'<br/></span>';
         
+          
         document.body.appendChild(div);
     }
    
