@@ -18,3 +18,15 @@
   margin-bottom: 7px;
   
 }
+
+.tile{
+  background-color: grey;
+  margin: 5px;
+  padding: 10px;
+  color: white;
+}
+.row{
+  margin: 10px;
+  display: block;
+  padding: 10px;
+}
